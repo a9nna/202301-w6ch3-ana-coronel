@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
@@ -22,6 +23,11 @@
     "typescript": "^4.9.5"
   },
   "dependencies": {
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.13.0",
+    "chalk": "^5.2.0",
+    "commander": "^10.0.0",
+    "inquirer": "^9.1.4",
     "lint-staged": "^13.1.2"
   }
 }
